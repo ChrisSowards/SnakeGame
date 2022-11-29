@@ -59,13 +59,13 @@ public class Board extends JPanel implements ActionListener {
 
     private void loadImages() { // loading the images for the game
 
-        ImageIcon iid = new ImageIcon("src/resources/dot.png");
+        ImageIcon iid = new ImageIcon("dot.png");
         body = iid.getImage();
 
-        ImageIcon iia = new ImageIcon("src/resources/heart.png");
+        ImageIcon iia = new ImageIcon("heart.png");
         objective = iia.getImage();
 
-        ImageIcon iih = new ImageIcon("src/resources/head.png");
+        ImageIcon iih = new ImageIcon("head.png");
         head = iih.getImage();
     }
 
